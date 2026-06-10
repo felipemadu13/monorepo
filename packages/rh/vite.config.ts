@@ -12,7 +12,6 @@ export default defineConfig({
       formats: ['es']
     },
     rollupOptions: {
-      // Vue deve ser externa para evitar múltiplas instâncias na aplicação final
       external: ['vue', 'vuetify', 'vuetify/components', 'vuetify/directives'],
       output: {
         globals: {

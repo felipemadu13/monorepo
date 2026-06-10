@@ -1,2 +1,6 @@
 # monorepo
-Teste
+
+## Starting the private registry
+```
+pnpm verdaccio
+```
