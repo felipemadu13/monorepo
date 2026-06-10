@@ -1,2 +1,8 @@
 #GEMINI
 GEMINI.md
+
+#NODE
+node_modules/
+dist/
+build/
+*.log
