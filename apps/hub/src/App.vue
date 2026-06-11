@@ -17,6 +17,9 @@ import HelloWorld from './components/HelloWorld.vue'
           <v-list nav density="compact" color="primary">
             <v-list-item to="/rh" prepend-icon="mdi-account-group" title="RH"></v-list-item>
             <v-list-item to="/suporte" prepend-icon="mdi-help-circle" title="Suporte"></v-list-item>
+            <v-list-item to="/frota" prepend-icon="mdi-car" title="Controle de Frota"></v-list-item>
+            <v-list-item to="/medicamentos" prepend-icon="mdi-pill" title="Medicamentos"></v-list-item>
+            <v-list-item to="/documentos" prepend-icon="mdi-file-document" title="Documentos"></v-list-item>
           </v-list>
         </header>
 
@@ -30,7 +33,6 @@ import HelloWorld from './components/HelloWorld.vue'
 </template>
 
 <style>
-/* Remove default margin/padding and scrollbars at body level if any */
 html, body {
   margin: 0;
   padding: 0;

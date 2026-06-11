@@ -9,12 +9,6 @@ export default defineConfig({
   plugins: [
     vue(),
     vueDevTools(),
-    visualizer({
-      open: true,
-      filename: 'stats.html',
-      gzipSize: true,
-      brotliSize: true
-    })
   ],
   resolve: {
     alias: {

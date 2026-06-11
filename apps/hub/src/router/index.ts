@@ -2,6 +2,9 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import { RhDashboard } from '@monorepo/rh'
 import { SuporteDashboard } from '@monorepo/suporte'
+import { FrotaDashboard } from '@monorepo/frota'
+import { MedicamentosDashboard } from '@monorepo/medicamentos'
+import { DocumentosDashboard } from '@monorepo/documentos'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -20,6 +23,21 @@ const router = createRouter({
       path: '/suporte',
       name: 'suporte',
       component: SuporteDashboard,
+    },
+    {
+      path: '/frota',
+      name: 'frota',
+      component: FrotaDashboard,
+    },
+    {
+      path: '/medicamentos',
+      name: 'medicamentos',
+      component: MedicamentosDashboard,
+    },
+    {
+      path: '/documentos',
+      name: 'documentos',
+      component: DocumentosDashboard,
     },
     {
       path: '/about',

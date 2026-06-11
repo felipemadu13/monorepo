@@ -17,6 +17,9 @@
   "dependencies": {
     "vuetify": "^3.6.11",
     "@mdi/font": "^7.4.47",
+    "@monorepo/documentos": "workspace:*",
+    "@monorepo/frota": "workspace:*",
+    "@monorepo/medicamentos": "workspace:*",
     "@monorepo/rh": "workspace:*",
     "@monorepo/suporte": "workspace:*",
     "@monorepo/ui": "workspace:*",
